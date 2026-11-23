@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Integrantes del equipo</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f4f6f8;
+      color: #222;
+      margin: 0;
+      padding: 24px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 24px;
+    }
+    .equipo {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .integrante {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+      width: 220px;
+      padding: 16px;
+      text-align: center;
+    }
+    .integrante img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #ddd;
+    }
+    .integrante h2 {
+      font-size: 1.1rem;
+      margin: 12px 0 4px;
+    }
+    .integrante a {
+      font-size: 0.85rem;
+      color: #0366d6;
+      word-break: break-all;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Integrantes del equipo</h1>
+
+  <ul class="equipo">
+
+    <!-- Soriano Ortiz Istiven Alejandro -->
+    <li class="integrante">
+      <!-- Pega la liga de la imagen en src="" -->
+      <img src="https://github.com/equip09/equip09.github.io/blob/173610d5c0f477043bd43035468563b75e2494cc/INTEGRATES/soriano%20ortiz%20istiven%20alejandro.webp?raw=true" alt="Foto del integrante 1">
+      <h2>Soriano Ortiz Istiven Alejandro</h2>
+      <!-- Pega la misma liga en href="" y en el texto -->
+      <a href="https://github.com/equip09/equip09.github.io/blob/173610d5c0f477043bd43035468563b75e2494cc/INTEGRATES/soriano%20ortiz%20istiven%20alejandro.webp?raw=true" target="_blank">Ver imagen</a>
+    </li>
+
+    <!-- Dzul Itzincab Carlos Andrey -->
+    <li class="integrante">
+      <img src="https://github.com/equip09/equip09.github.io/blob/173610d5c0f477043bd43035468563b75e2494cc/INTEGRATES/Dzul%20Itzincab%20Carlos%20Andrey.jpeg?raw=true" alt="Foto del integrante 2">
+      <h2>Dzul Itzincab Carlos Andrey </h2>
+      <a href="https://github.com/equip09/equip09.github.io/blob/173610d5c0f477043bd43035468563b75e2494cc/INTEGRATES/Dzul%20Itzincab%20Carlos%20Andrey.jpeg?raw=true" target="_blank">Ver imagen</a>
+    </li>
+
+    <!-- Chan Balam Akari Isabella -->
+    <li class="integrante">
+      <img src="https://github.com/equip09/equip09.github.io/blob/173610d5c0f477043bd43035468563b75e2494cc/INTEGRATES/Chan%20Balam%20Akari%20Isabella.jpeg?raw=true" alt="Foto del integrante 3">
+      <h2>Chan Balam Akari Isabella</h2>
+      <a href="https://github.com/equip09/equip09.github.io/blob/173610d5c0f477043bd43035468563b75e2494cc/INTEGRATES/Chan%20Balam%20Akari%20Isabella.jpeg?raw=true" target="_blank">Ver imagen</a>
+    </li>
+
+    <!-- Pech Poot José Joel -->
+    <li class="integrante">
+      <img src="https://github.com/equip09/equip09.github.io/blob/173610d5c0f477043bd43035468563b75e2494cc/INTEGRATES/Pech%20Poot%20Jose%20Joel.jpeg?raw=true" alt="Foto del integrante 4">
+      <h2>Pech Poot José Joel</h2>
+      <a href="https://github.com/equip09/equip09.github.io/blob/173610d5c0f477043bd43035468563b75e2494cc/INTEGRATES/Pech%20Poot%20Jose%20Joel.jpeg?raw=true" target="_blank">Ver imagen</a>
+    </li>
+
+
+  </ul>
+
+</body>
+</html>
